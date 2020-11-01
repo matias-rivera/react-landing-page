@@ -8,16 +8,14 @@ import {
     homeObjFour
 } from './Data'
 
-const Home = () => {
+const Services = () => {
     return ( 
         <>
-            <HeroSection {...homeObjOne} />
-            <HeroSection {...homeObjThree} />
-            <HeroSection {...homeObjTwo} />
+            
             <Pricing />
-            <HeroSection {...homeObjFour} />
+            <HeroSection {...homeObjOne} />
         </>
      );
 }
  
-export default Home;
+export default Services;
